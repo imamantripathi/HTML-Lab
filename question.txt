@@ -1,0 +1,39 @@
+<!-- What is html?
+what are some other example of markup languages?
+Difference between html and xml.
+What is the structure of an html document?
+What are html elements or how they are different from tags?
+What is the purpose of <!DOCTYPE html> declaration?
+Write a short note on head tag.
+Can there be multiple body tags in a single html document.
+What do you understand by nesting of tags?
+Describe html formatting tags.
+How can multiple spaces and comments be inserted in an html document?
+What are attributes in html document?
+Examples of global attributes.
+How can text be aligned in html document?
+How can you apply different colours to text?
+How are images inserted in html document?
+What do you understand by void element/singleton tag?
+Write a short note on paragraph element.
+How can superscripts and subscripts be inserted in html document?
+How can you insert title with single and double quotes?
+Define anchor tags and describe its attributes.
+Which attribute is used to open hyperlink in a new tab?
+When mailto is used within href attribute of anchor tag?
+What is the purpose of using address tag?
+Explain abbr tag.
+Describe global attributes with examples.
+Explain the id attribute and why this attribute is used.
+What are the units that we use to resize the texts and images in an html doc.?
+How many types of lists are there in html?
+How can you insert lists in an html document. 
+Explain each type of list with respective attributes.
+When span tag is used in an html document?
+Describe marquee tag with all of its attributes.
+How can you find the coordinates of an image?
+How can you move an image in an html document?
+What are inline and block elements? Explain with examples.
+Why div tags are used in an html document?
+Describe the tag which let us create clickable areas in an image. Also explain all the attributes of the tag.
+ -->

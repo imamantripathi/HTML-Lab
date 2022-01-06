@@ -1,0 +1,84 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+        form{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: larger;
+            font-weight: bold;
+            text-align: left;
+            padding: auto;
+        }
+    </style>
+  </head>
+
+  <body>
+    <hr />
+    <h2
+      style="
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+      "
+    >
+      COMPUTER SOCIETY OF INDIA ANNUAL CONVENTION 2022 PARTICIPANTS RECORD
+    </h2>
+    <hr />
+    <div>
+      <form action="form.php">
+        <label for="name"> 1. Name of Participant: </label>
+        <input type="text" id="name" placeholder="Enter Your Name" />
+        <br />
+        <br />
+        <label for="address"> 2. Address: Street </label>
+        <input type="text" id="address" placeholder="Street Name" />
+        <label for="town"> Town </label>
+        <input type="text" id="town" placeholder="Town Name" />
+        <br /><br />
+        <label for="state">State</label>
+        <input type="text" id="state" placeholder="State Name" />
+        <label for="pincode">Pincode</label>
+        <input type="number" id="pincode" placeholder="Enter Pincode " />
+        <br /><br />
+        <label for="work">3. Select the work you are involved:</label>
+        <select name="work" id="work">
+          <option value="no-work">Select your choice</option>
+          <option value="Computer Education">Computer Education</option>
+          <option value="Website Development">Website Development</option>
+          <option value="Application Development">
+            Application Development
+          </option>
+        </select>
+        <br /><br />
+        <label for="tutorial">4. Select any tutorial you with to Attend:</label>
+        <br />
+        <label for="Tutorial"> 16<sup>th</sup> April 2022</label>
+        <select name="tutorial" id="tutorial">
+          <option value="no-option">Select your choice</option>
+          <option value="E-commerce">E-commerce</option>
+          <option value="web Tech">Website Technology</option>
+          <option value="Android Development">Android Development</option>
+          <option value="Digital Marketing">Digital Marketing</option>
+        </select>
+        <label for="Tutorial"> 17<sup>th</sup> April 2022</label>
+        <select name="tutorial" id="tutorial">
+          <option value="no-option">Select your choice</option>
+          <option value="E-commerce">E-commerce</option>
+          <option value="web Tech">Website Technology</option>
+          <option value="Android Development">Android Development</option>
+          <option value="Digital Marketing">Digital Marketing</option>
+        </select>
+        <br /><br />
+        <label for="requirements">5. Type any of your requirements in the Box:</label>
+        <br />
+        <textarea rows="10" cols="30" id="requirements"></textarea>
+        <br /><br />
+
+        <input type="reset" value="Start over" />
+        <input type="submit" value="Send over" />
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Application Form</title>
+  </head>
+
+  <body>
+    <h2
+      style="
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+      "
+    >
+      Online Application Form
+    </h2>
+    <div>
+      <form action="/form.php">
+        <label for="position">Position Applied For:</label
+        ><input type="text" autofocus id="position" /> <br /><br />
+        <label for="name">Enter Your Name:</label>
+        <input type="text" id="name" placeholder="" />
+        <br /><br />
+        <label for="nationality">Enter Your Nationality:</label>
+        <input type="text" name="nationality" id="nationality" /><br /><br />
+        <label for="gender">Select Your Gender:</label><br />
+        <input type="radio" name="gender" value="male" /> Male<br />
+        <input type="radio" name="gender" value="female" /> Female<br />
+        <input type="radio" name="gender" value="other" /> Other
+        <br />
+        <br />
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" id="dob" name="dateofbirth" value="" min="" max="" />
+        <br />
+        <br />
+        <label for="address">Enter Your Address:</label>
+        <textarea name="address" id="address" cols="20" rows="5"></textarea>
+        <br /><br />
+        <label for="telephone_number">Enter Your Number:</label>
+        <input type="number" name="number" id="telephone_number" /> <br /><br />
+        <label for="Email"> Enter Your Email: </label>
+        <input type="email" required name="email" id="Email" />
+        <br /><br />
+        <label for="passward">Enter Your Password:</label>
+        <input type="password" name="passward" required id="passward" />
+        <br /><br />
+        <label for="education">Educational History:</label><br />
+        <input type="checkbox" name="12th" id="education" />12th Class Student
+        <br />
+        <input type="checkbox" name="BCA" id="education" />BCA Student
+        <br /><br />
+        <label for="qualification">Qualification:</label><br />
+        <input type="checkbox" name="12th pass" id="qualification" />12th Pass
+        <br />
+        <input type="checkbox" name="undergraduate" id="qualification" /> Under
+        Graduate <br />
+        <input type="checkbox" name="graduate" id="qualification" /> Graduate
+        <br />
+        <input type="checkbox" name="postgraduate" id="qualification" /> Post
+        Graduate <br />
+        <input type="checkbox" name="doctorate" id="qualification" /> Doctorate
+        <br /><br />
+        <label for="skills">Skills:</label><br />
+        <input type="checkbox" name="Web Development" id="skills" />Web
+        Development<br />
+        <input type="checkbox" name="App Development" id="skills" />App
+        Development <br />
+        <input
+          type="checkbox"
+          name="BlockChain Development"
+          id="skills"
+        />BlockChain Development<br />
+        <input
+          type="checkbox"
+          name="Software Development"
+          id="skills"
+        />Software Development<br />
+        <br /><br />
+        <label for="work experience"
+          >Work Experience/Employment/Training:</label
+        >
+        <input
+          type="number"
+          name="work-exprience"
+          min="0"
+          max="10"
+          id="work experience"
+        />
+        <br /><br />
+        <label for="personal-statement">Personal Statement:</label>
+        <textarea
+          name="personal statement "
+          id="personal-statement"
+          cols="30"
+          rows="5"
+        ></textarea>
+        <div>
+          <h3>Referee 1</h3>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="" /><br /><br />
+          <label for="occupation">Occupation:</label>
+          <input type="text" id="occupation" placeholder="" /><br /><br />
+          <label for="relation">Relationship:</label>
+          <input type="text" id="relation" placeholder="" /><br /><br />
+          <label for="address">Address:</label>
+          <textarea name="address" id="address" cols="20" rows="5"></textarea
+          ><br /><br />
+          <label for="name">Telephone:</label>
+          <input type="text" id="name" placeholder="" />
+          <br /><br />
+          <br /><br />
+        </div>
+        <div>
+          <h3>Referee 2</h3>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="" /><br /><br />
+          <label for="occupation">Occupation:</label>
+          <input type="text" id="occupation" placeholder="" /><br /><br />
+          <label for="relation">Relationship:</label>
+          <input type="text" id="relation" placeholder="" /><br /><br />
+          <label for="address">Address:</label>
+          <textarea name="address" id="address" cols="20" rows="5"></textarea
+          ><br /><br />
+          <label for="name">Telephone:</label>
+          <input type="text" id="name" placeholder="" />
+          <br /><br />
+          <br /><br />
+        </div>
+        <div class="controls">
+          <input type="reset" value="Reset" />
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
