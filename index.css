@@ -8,8 +8,8 @@ h1 {
   font-size: 4em;
   letter-spacing: -2px;
   text-align: center;
-  border-bottom: 2px solid black;
-  text-transform: uppercase;
+  border: 2px solid black;
+  text-transform: capitalize;
 }
 a {
   text-decoration: none;
@@ -17,8 +17,12 @@ a {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+a:visited{
+  color: rgb(2,0,36);
+}
 a:hover {
   font-style: italic;
+  color: rgb(2,0,36);
 }
 .buttons {
   margin: 10%;
