@@ -17,18 +17,35 @@ a {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-a:visited{
-  color: rgb(2,0,36);
+a:visited {
+  color: rgb(2, 0, 36);
 }
 a:hover {
   font-style: italic;
-  color: rgb(2,0,36);
+  color: rgb(2, 0, 36);
 }
 .buttons {
   margin: 10%;
   text-align: center;
 }
-
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .h1,
+  .btn-hover,
+  .btn-hover.color-1,
+  .btn-hover.color-10,
+  .btn-hover.color-11,
+  .btn-hover.color-2,
+  .btn-hover.color-3,
+  .btn-hover.color-4,
+  .btn-hover.color-5,
+  .btn-hover.color-6,
+  .btn-hover.color-7,
+  .btn-hover.color-8,
+  .btn-hover.color-9 {
+    width: 100%;
+  }
+}
 .btn-hover {
   width: 600px;
   font-size: 16px;
