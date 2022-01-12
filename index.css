@@ -55,7 +55,6 @@ a:hover {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-@media only screen and (min-width:321px) and (max-width:480px) { }
 
 .btn-hover:focus {
   outline: none;
