@@ -30,7 +30,9 @@ a:hover {
 }
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
-  .h1,
+  .h1 {
+    width: 100%;
+  }
   .btn-hover,
   .btn-hover.color-1,
   .btn-hover.color-10,
@@ -44,6 +46,15 @@ a:hover {
   .btn-hover.color-8,
   .btn-hover.color-9 {
     width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
   }
 }
 .btn-hover {
