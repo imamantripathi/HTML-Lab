@@ -37,3 +37,29 @@ What are inline and block elements? Explain with examples.
 Why div tags are used in an html document?
 Describe the tag which let us create clickable areas in an image. Also explain all the attributes of the tag.
  -->
+
+
+
+ <!-- 
+Explain css,
+Advantage of css, 
+Rule of css, 
+Different selectors of css,
+What are pseudo classes, 
+What is pseudo element selector,
+Explain universal selector
+What do the following CSS selectors mean?
+div, p
+div p
+div + p
+div > p
+How will you target an h2 and h3 with the same styling?
+Explain each type of css and how they are different
+What is the difference between inline, inline-block, and block
+Name the property for controlling the image repetition of the background.
+Name the property for controlling the image scroll in the background.
+Explain css box model with the help of diagram
+How is margin different from padding in CSS?
+Explain different border styles.
+
+ -->
