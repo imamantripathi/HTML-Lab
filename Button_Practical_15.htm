@@ -1,0 +1,76 @@
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #389612;
+        margin: 0;
+        padding: 0;
+        /* box-sizing: border-box;
+        display: grid;
+        place-items: center; */
+        height: 100vh;
+      }
+      button {
+        border: 7px solid white;
+        background-color: black;
+        color: white;
+        height: 100px;
+        width: 300px;
+        text-align: center;
+        font-size: 2rem;
+        border-radius: 50px;
+        /* margin-left: 38%;
+        margin-right: 35%;
+        margin-top: 20%; */
+        position: relative;
+      }
+      button:hover {
+        background-color: white;
+        color: #151320;
+        /* display: block; */
+        cursor: pointer;
+
+        /* transition: 0.5s ease-in; */
+      }
+      .onhover {
+        display: none;
+        position: absolute;
+        min-width: 200px;
+        background: white;
+        color: black;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        /* z-index: 1; */
+        /* width: 100px; */
+        /* height:; */
+      }
+      .dropdown:hover .onhover {
+        display: block;
+        position: relative;
+        background: palegreen;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dropdown">
+      <button>Google</button>
+      <div class="onhover">
+        <a href="http://www.google.com">Google </a><br />
+        <a href="https://www.google.com/maps">Google map </a><br />
+        <a href="https://docs.google.com/">Google Docs </a><br />
+        <a href="https://photos.google.com/?tab=rq&authuser=0&pageId=none">Google Photos </a><br />
+      </div>
+    </div>
+  </body>
+</html>
