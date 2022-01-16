@@ -40,26 +40,39 @@ Describe the tag which let us create clickable areas in an image. Also explain a
 
 
 
- <!-- 
-Explain css,
-Advantage of css, 
-Rule of css, 
-Different selectors of css,
+<!-- 
+Explain CSS.
+Advantages of CSS.
+Rules of CSS.
+Different selectors of CSS.
+What is the difference between ID and CLASS?
 What are pseudo classes, 
 What is pseudo element selector,
-Explain universal selector
+Explain universal selector in CSS.
 What do the following CSS selectors mean?
+Explain each type of CSS and how they are different.
+How can you insert comments in CSS?
 div, p
 div p
 div + p
 div > p
 How will you target an h2 and h3 with the same styling?
-Explain each type of css and how they are different
+What are the various font-related attributes in CSS.
 What is the difference between inline, inline-block, and block
 Name the property for controlling the image repetition of the background.
 Name the property for controlling the image scroll in the background.
-Explain css box model with the help of diagram
+Which property can be used to avoid repetitive background images?
+Explain CSS box model with the help of diagram.
 How is margin different from padding in CSS?
 Explain different border styles.
-
- -->
+List and explain the border properties in CSS.
+How do you specify units in the CSS?. What are the different ways to do it?
+What is the difference between inline, inline-block, and block?
+What is the difference between "display:none" and "visibility:hidden" in CSS?
+Explain the position property of CSS.
+What are the difference between "position:absolute" and "position:relative" in CSS?
+What is use of overflow property in CSS?
+Explain opacity in CSS.
+How can you use transition effects in CSS?
+List out the properties of transition in CSS.
+-->
