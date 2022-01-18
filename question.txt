@@ -75,4 +75,10 @@ What is use of overflow property in CSS?
 Explain opacity in CSS.
 How can you use transition effects in CSS?
 List out the properties of transition in CSS.
--->
+
+Explain 2D and 3D in CSS.
+Example of some CSS 3D  transform methods.
+Explain CSS animations.
+What is CSS web Fonts?
+Explain CSS word wrapping.
+--> till 18/01/22
