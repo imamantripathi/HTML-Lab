@@ -19,6 +19,7 @@ h1 {
   text-align: center;
   font-size: larger;
   font-weight: 450px;
+  text-shadow:0.2px 0.2px blue;
 }
 h2 {
   text-align: center;
@@ -30,12 +31,22 @@ h2 {
 
 .popular-in-india {
   display: flex;
+  flex-direction: row;
   row-gap: 10px;
   column-gap: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
+}
+@media (max-width: 800px) {
+  .popular-in-india {
+    flex-direction: column;
+    column-gap: normal;
+    padding-left: 10px;
+  padding-right: 10px;
+  }
+  
 }
 
 .popular-in-india a {
@@ -59,7 +70,6 @@ a:focus {
   transform: scale(1.2);
   background-color: #ee9617;
   background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
-
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -68,6 +78,8 @@ a:focus {
   padding-right: 50px;
   background: transparent;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 .must-visit img {
   display: block;
@@ -76,8 +88,8 @@ a:focus {
   width: 100%;
 }
 .must-visit {
-  margin-right: 20px;
-  margin-bottom: 10px;
+  flex: 1 0 19%;
+  margin: 20px;
   justify-content: center;
   text-align: center;
   background: white;
@@ -89,6 +101,12 @@ a:focus {
 .must-visit:hover{
     transform: scale(1.2);
     transition: all 0.5s ease-in-out;
+}
+@media (max-width: 800px) {
+  .main-must-visit {
+    flex-direction: column;
+    background: white;
+  }
 }
 .must-visit .text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
