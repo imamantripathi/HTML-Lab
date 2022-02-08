@@ -1,0 +1,16 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE note [
+    <!ELEMENT note (to,form,subject,body)>
+    <!ELEMENT to (#PCDATA)>
+    <!ELEMENT form (#PCDATA)>
+    <!ELEMENT subject (#PCDATA)>
+    <!ELEMENT body (#PCDATA)>
+]>
+<note>
+    <to>Aman</to>
+    <form>Ram</form>
+    <subject>Internet and WWW</subject>
+    <body>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         Non ipsum, aspernatur unde ea quisquam explicabo eius inventore magnam
+          ex esse.</body>
+</note>

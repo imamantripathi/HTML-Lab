@@ -1,0 +1,5 @@
+<!ELEMENT food_menu (category)>
+<!ELEMENT category (name,price,calories)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT calories (#PCDATA)>

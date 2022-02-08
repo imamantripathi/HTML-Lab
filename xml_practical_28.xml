@@ -1,0 +1,11 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE employee SYSTEM "xml_practical_28.dtd">
+<employee>
+    <empname>
+        Raj Kumar
+    </empname>
+    <empno>01</empno>
+    <salary>25000 </salary>
+    <department>    Tech
+    </department>
+</employee>

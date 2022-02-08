@@ -1,0 +1,23 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<food_menu>
+    <category>
+        <name>French Toast</name>
+        <price>400 rupees</price>
+        <calories>600</calories>
+    </category>
+    <category>
+        <name>Homestyle Breakfast</name>
+        <price>600 rupees</price>
+        <calories>400</calories>
+    </category>
+    <category>
+        <name>Tea</name>
+        <price>50 rupees</price>
+        <calories>100</calories>
+    </category>
+    <category>
+        <name>Milk</name>
+        <price>100 rupees</price>
+        <calories>200</calories>
+    </category>
+</food_menu>
