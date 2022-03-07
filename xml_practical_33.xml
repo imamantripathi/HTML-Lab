@@ -1,0 +1,34 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="practical 33.xsl"?>
+<student_details>
+	<student>
+		<name>kannu</name>
+		<ID>1754</ID>
+		<course>BCA</course>
+		<CGPA>8.9</CGPA>
+	</student>
+	<student>
+         	<name>Tannu</name>
+		<ID>6579</ID>
+		<course>BBA</course>
+		<CGPA>9.5</CGPA>
+	</student>
+	<student>
+         	<name>Ishu</name>
+		<ID>7658</ID>
+		<course>B.Com</course>
+		<CGPA>8.4</CGPA>
+	</student>
+	<student>
+         	<name>Pandu</name>
+		<ID>8687</ID>
+		<course>B.tech</course>
+		<CGPA>4.6</CGPA>
+	</student>
+	<student>
+         	<name>Akku</name>
+		<ID>7979</ID>
+		<course>BCA</course>
+		<CGPA>7.3</CGPA>
+	</student>
+</student_details>

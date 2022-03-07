@@ -1,0 +1,29 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="practical 33.xsl"?>
+<cart>
+	<product>
+		<pname>Notebook</pname>
+		<cost>50</cost>
+		<discount>10</discount>
+	</product>
+	<product>
+         	<pname>PenSet</pname>
+         	<cost>150</cost>
+         	<discount>50</discount>
+	</product>
+	<product>
+         	<pname>Marker</pname>
+         	<cost>170</cost>
+         	<discount>20</discount>
+	</product>
+	<product>
+         	<pname>Colour Box</pname>
+         	<cost>250</cost>
+         	<discount>60</discount>
+	</product>
+	<product>
+         	<pname>Pencil Box</pname>
+         	<cost>100</cost>
+         	<discount>15</discount>
+	</product>
+</cart>

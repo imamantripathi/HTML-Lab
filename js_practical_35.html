@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operators in Javascript</title>
+  </head>
+  <body>
+    <h1 style="border: 2px black solid; text-align: center">
+      Arithmetic Operators in Javascript
+    </h1>
+    <div style="text-align: center">
+      <h2 id="add">Number1 + Number2 &nbsp; = &nbsp;</h2>
+      <h2 id="subs">Number1 - Number2 &nbsp; = &nbsp;</h2>
+      <h2 id="multi">Number1 * Number2 &nbsp; = &nbsp;</h2>
+      <h2 id="div">Number1 / Number2 &nbsp; = &nbsp;</h2>
+      <h2 id="mod">Number1 % Number2 &nbsp; = &nbsp;</h2>
+    </div>
+    <script>
+      var input1 = prompt("Enter the Number1");
+      var input2 = prompt("Enter the Number2");
+      let add = parseInt(input1) + parseInt(input2);
+      let subs = input1 - input2;
+      let multi = input1 * input2;
+      let div = input1 / input2;
+      let mod = input1 % input2;
+      document.getElementById("add").innerHTML += add;
+      document.getElementById("subs").innerHTML += subs;
+      document.getElementById("multi").innerHTML += multi;
+      document.getElementById("div").innerHTML += div;
+      document.getElementById("mod").innerHTML += mod;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Factorial & Prime Number & Reverse Number</title>
+</head>
+
+<body>
+    <h1 style="border: 2px black solid; text-align: center">
+        Factorial Program in Javascript
+    </h1>
+    <div style="font-size: 40px">
+        <label> Enter the Number to Find Factorial </label><br />
+        <input style="width: 200px; height: 35px; border-radius: 10px; font-size: 20px" type="text" id="input1" />
+        <button style="width: 200px; height: 40px; border-radius: 10px; font-size: 20px" onclick="fact()">
+            Output 🔥
+        </button>
+        <p id="output1">Output:&nbsp;</p>
+    </div>
+    <!-- Prime number program  -->
+    <h1 style="border: 2px black solid; text-align: center">
+        Prime Number Program in Javascript
+    </h1>
+    <div style="font-size: 40px">
+        <label> Enter the range to find Prime Number </label><br />
+        <input style="width: 200px; height: 35px; border-radius: 10px; font-size: 20px" type="text" id="input2_1" />
+        <input style="width: 200px; height: 35px; border-radius: 10px; font-size: 20px" type="text" id="input2_2" />
+        <button style="width: 200px; height: 40px; border-radius: 10px; font-size: 20px" onclick="prime()">
+            Output 🔥
+        </button>
+        <p id="output2">Output:&nbsp;</p>
+    </div>
+    <!-- Reverse Number program -->
+    <h1 style="border: 2px black solid; text-align: center">
+        Reverse Number Program in Javascript
+    </h1>
+    <div style="font-size: 40px">
+        <label> Enter the Number to Reverse it </label><br />
+        <input style="width: 200px; height: 35px; border-radius: 10px; font-size: 20px" type="text" id="input3" />
+        <button style="width: 200px; height: 40px; border-radius: 10px; font-size: 20px" onclick="reverse()">
+            Output 🔥
+        </button>
+        <p id="output3">Output:&nbsp;</p>
+    </div>
+    <script>
+        function reverse() {
+            let num = document.getElementById("input3").value;
+            let rev = 0;
+            let lastDigit;
+            while (num != 0) {
+                lastDigit = num % 10;
+                rev = rev * 10 + lastDigit;
+                num = Math.floor(num / 10);
+            }
+            document.getElementById("output3").innerHTML += rev;
+        }
+    </script>
+    <script>
+        function prime() {
+            var out = 0;
+            let input2_1 = document.getElementById("input2_1").value;
+            let input2_2 = document.getElementById("input2_2").value;
+            for (let i = input2_1; i <= input2_2; i++) {
+                let flag = 0;
+
+                // looping through 2 to user input number
+                for (let j = 2; j < i; j++) {
+                    if (i % j == 0) {
+                        flag = 1;
+                        break;
+                    }
+                }
+
+                // if number greater than 1 and not divisible by other numbers
+                if (i > 1 && flag == 0) {
+                    out2 = i;
+                    document.getElementById("output2").innerHTML +=
+                        out2 + "&nbsp;&nbsp;";
+                }
+            }
+        }
+    </script>
+    <script>
+        function fact() {
+            let input1 = document.getElementById("input1").value;
+            let out = 1;
+            for (let index = 1; index <= input1; index++) {
+                out = out * index;
+            }
+            document.getElementById("output1").innerHTML += out;
+        }
+    </script>
+</body>
+
+</html>
