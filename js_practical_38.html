@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical 38</title>
+  </head>
+  <body>
+    <h1 style="border: 2px black solid; text-align: center">
+        Find Profit or Loss Percentage 
+    </h1>
+    <div
+      style="
+        border: 2px red solid;
+        width: fit-content;
+        font-size: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+      "
+    >
+      <p id="sell">Selling Price:&nbsp;</p>
+      <p id="cost">Cost Price:&nbsp;</p>
+      <p id="profit"></p>
+      <p id="loss"></p>
+    </div>
+    <script>
+      let sellingPrice = prompt("Enter the Selling Price of Article");
+      document.getElementById("sell").innerHTML += sellingPrice;
+      let costPrice = prompt("Enter the Cost Price of Article");
+      document.getElementById("cost").innerHTML += costPrice;
+      if (sellingPrice > costPrice) {
+        let profit = sellingPrice - costPrice;
+        let profitPercentage =parseInt( (profit / costPrice) * 100);
+        document.getElementById(
+          "profit"
+        ).innerHTML += `Profit:&nbsp; ${profitPercentage}%`;
+      } else {
+        let loss = costPrice - sellingPrice;
+        let lossPercentage = parseInt((loss / costPrice) * 100);
+        document.getElementById(
+          "loss"
+        ).innerHTML += `Loss:&nbsp; ${lossPercentage}%`;
+      }
+    </script>
+  </body>
+</html>

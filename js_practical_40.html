@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical 40</title>
+</head>
+
+<body>
+    <div id="click" style="
+        height: 100px;
+        width: 100px;
+        background: red;
+        padding: 20px;
+        border: 2px black dotted;
+      " onclick="change()"></div>
+    <div id="click1" style="
+        height: 100px;
+        width: 100px;
+        background: red;
+        padding: 20px;
+        margin-top: 20px;
+        border: 2px black dotted;
+      " onmouseover="change1()" onmouseout="change4()"></div>
+    <div id="click2" style="
+        height: 100px;
+        width: 100px;
+        background: red;
+        padding: 20px;
+        margin-top: 20px;
+        border: 2px black dotted;
+      " onmouseenter="change1()" onmouseleave="change3()"></div>
+    <div id="click3" style="
+      height: 100px;
+      width: 100px;
+      background: red;
+      padding: 20px;
+      margin-top: 20px;
+      border: 2px black dotted;
+    " onmouseenter="change1()" onmouseup="change3()"></div>
+    <div id="click4" style="
+      height: 100px;
+      width: 100px;
+      background: red;
+      padding: 20px;
+      margin-top: 20px;
+      border: 2px black dotted;
+    " onmousewheel="change4()" onmousemove="change1()"></div>
+    <script>
+        function change() {
+            let v = document.getElementById("click");
+            v.style.background = "black";
+        }
+        function change1() {
+            let v = document.getElementById("click1");
+            v.style.background = "pink";
+        }
+        function change2() {
+            let v = document.getElementById("click2");
+            v.style.background = "blue";
+        }
+        function change3() {
+            let v = document.getElementById("click3");
+            v.style.background = "brown";
+        }
+        function change4() {
+            let v = document.getElementById("click4");
+            v.style.background = "orange";
+        }
+    </script>
+</body>
+
+</html>

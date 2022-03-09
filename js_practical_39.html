@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical 39</title>
+  </head>
+  <body>
+    <div style="font-size: 40px">
+      <label> Enter the String for Demo </label><br />
+      <input
+        style="width: 200px; height: 35px; border-radius: 10px; font-size: 20px"
+        type="text"
+        id="string"
+      />
+      <button
+      style="width: 200px; height: 40px; border-radius: 10px; font-size: 20px"
+      onclick="stringCap()"
+    >
+      Output 🔥
+    </button>
+    </div>
+    
+    <p id="cString" style="font-size: 40px;">Output:&nbsp;</p>
+    <script>
+      function stringCap() {
+        let str = document.getElementById("string").value;
+        let string = str.charAt(0).toUpperCase() + str.slice(1);
+        document.getElementById("cString").innerHTML += string;
+      }
+    </script>
+  </body>
+</html>

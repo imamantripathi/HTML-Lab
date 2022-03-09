@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical 37</title>
+    <style>
+      body {
+        background-image: url(Media/image.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+      #wish {
+        text-shadow: 2px 2px 2px black;
+        color: white;
+        font-size: 80px;
+        text-align: center;
+        padding: 200px 0px;
+      }
+      #time {
+        text-shadow: 2px 2px 2px red;
+        color: white;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <marquee behavior="" direction="right" id="time">Time :&nbsp;</marquee>
+    <h1 id="wish"></h1>
+    <script>
+      const d = new Date();
+      let hour = d.getHours();
+      let min = d.getMinutes();
+
+      if (min < 10) {
+        // or min = min < 10 ? '0' + min : min;
+        min = "0" + min;
+      } else {
+        min = min + "";
+      }
+      var time = d.getHours() + ":" + min;
+      document.getElementById("time").innerHTML += time;
+      // Condition for Wish
+      if (hour < 5 || hour > 17) {
+        document.getElementById("wish").innerHTML = "Good Evening";
+      } else if (hour >= 5 && hour < 12) {
+        document.getElementById("wish").innerHTML = "Good Morning";
+      } else if (hour >= 12 || hour < 5) {
+        document.getElementById("wish").innerHTML = "Good Afternoon";
+      }
+    </script>
+  </body>
+</html>
